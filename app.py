@@ -13,7 +13,7 @@ def about():
     "github_url": "https://github.com/Thernee",
     "name": "Abubakar Sani",
     }
-  return jsonify(brief_data), 200, {'Content-Type': 'application/json'}, brief_data
+  return jsonify(brief_data), 200
 
 if __name__ == "__main__":
   app.run(debug=True)
